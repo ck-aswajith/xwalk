@@ -85,117 +85,44 @@
     "fields": [
       {
         "component": "text",
-        "valueType": "string",
-        "name": "id",
-        "label": "Id",
-        "description": "Provide an ID to be used to deep link to this content",
-        "value": ""
+        "name": "text",
+        "label": "Text"
       },
       {
         "component": "text",
-        "valueType": "string",
-        "name": "customClass",
-        "label": "Custom Class",
-        "description": "Provide a CSS Class to customize this component",
-        "value": ""
-      },
-      {
-        "component": "richtext",
-        "name": "content",
-        "label": "Content",
-        "valueType": "string",
-        "description": "Rich text content with support for semantic tags (H1-H6, p, code), formatting (bold, italic, underline, strikethrough, superscript, subscript), alignment (left, center, right, justify), lists (ordered & unordered), and content insertion (link, unlink, image)",
-        "value": "",
-        "multi": true
+        "name": "title",
+        "label": "Title"
       },
       {
         "component": "select",
-        "name": "language",
-        "label": "Language",
-        "description": "Select the language of this block to improve accessibility for screen readers",
+        "name": "titleType",
+        "label": "Title Type",
         "options": [
           {
-            "name": "English",
-            "value": "en"
+            "name": "h1",
+            "value": "h1"
           },
           {
-            "name": "French",
-            "value": "fr"
+            "name": "h2",
+            "value": "h2"
           },
           {
-            "name": "German",
-            "value": "de"
+            "name": "h3",
+            "value": "h3"
           },
           {
-            "name": "Spanish",
-            "value": "es"
+            "name": "h4",
+            "value": "h4"
+          },
+          {
+            "name": "h5",
+            "value": "h5"
+          },
+          {
+            "name": "h6",
+            "value": "h6"
           }
-        ],
-        "value": "en"
-      },
-      {
-        "component": "text",
-        "valueType": "string",
-        "name": "analyticsId",
-        "label": "Analytics Interaction ID",
-        "description": "Analytics tracking ID for this component",
-        "value": ""
-      },
-      {
-        "component": "select",
-        "name": "styles",
-        "label": "Styles (Common)",
-        "description": "Select a predefined style variant",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "Default",
-            "value": ""
-          },
-          {
-            "name": "Light Background",
-            "value": "light"
-          },
-          {
-            "name": "Highlight",
-            "value": "highlight"
-          },
-          {
-            "name": "Center Aligned",
-            "value": "center"
-          },
-          {
-            "name": "Full Width",
-            "value": "full-width"
-          }
-        ],
-        "value": ""
-      },
-      {
-        "component": "select",
-        "name": "animations",
-        "label": "Animations (Common)",
-        "description": "Select animation behavior",
-        "valueType": "string",
-        "options": [
-          {
-            "name": "None",
-            "value": ""
-          },
-          {
-            "name": "Fade In",
-            "value": "fade-in"
-          },
-          {
-            "name": "Slide In",
-            "value": "slide-in"
-          },
-          {
-            "name": "Zoom In",
-            "value": "zoom-in"
-          }
-        ],
-        "value": ""
+        ]
       }
     ]
   },
